@@ -2,6 +2,7 @@ import React from "react";
 import MapComponent from "./components/Map";
 import Valss from "./components/input/index.jsx";
 import styles from "./components/input/input.module.css"
+import Output from "./components/output/index.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <MapComponent/>
           <Valss/>
       </div>
+      <Output/>
     </div>
   );
 }
